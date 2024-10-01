@@ -41,8 +41,9 @@ project = rf.workspace("industrial-university-of-ho-chi-minh-city-inppl").projec
 dataset = project.version(2).download("yolov8")
 ```
 
-Sau khi đào tạo với dữ liệu riêng xong, bạn có thể thực hiện detect với weights bạn đã đào tạo mô hình có tên file `best.pt`
+Sau khi đào tạo với dữ liệu riêng xong, bạn có thể thực hiện detect với weights bạn đã đào tạo mô hình có tên file `best.pt`. Và các câu lệnh để bạn detect vật thể bằng dữ liệu riêng của bạn tương tự với dữ liệu đã được đào tạo sẵn trong mô hình của YOLO nhưng chỉ khác là bạn sử dụng file weights là `best.pt`
 
+--------------
 ### Tham khảo:
 1. https://docs.ultralytics.com/
 2. https://docs.roboflow.com/
