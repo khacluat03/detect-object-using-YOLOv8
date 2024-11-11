@@ -1,7 +1,7 @@
 # Phát hiện vật thể trong ảnh vào video bằng YOLOv8
 Giới thiệu
 
-Dự án này được thực hiện sử dụng YOLOv8 để phát hiện các vật thể trong ảnh và video. YOLOv8 là một phiên bản tiên tiến của mô hình YOLO, nổi tiếng về khả năng nhận diện đối tượng thời gian thực. Trong dự án này, tôi đã sử dụng thư viện Ultralytics, triển khai bước đầu là phát hiện đối tượng trên ảnh và video, sau đó đào tạo mô hình với dữ liệu riêng được tạo và tải lên Roboflow. Quá trình này được thực hiện trên Google Colab.
+YOLO là một mô hình Học sâu (Deep Learning) được xây dựng theo mô hình CNN, dùng để dự đoán vật thể với dữ liệu đã được đào tạo sẵn trong mô hình. Mô hình được tích hợp trong thư viện ultralytics, chúng ta có thể train thêm vào mô hình với dữ liệu riêng của mình. Notebook này được thực hiện sử dụng YOLOv8 để phát hiện các vật thể trong ảnh và video. YOLOv8 là một phiên bản tiên tiến của mô hình YOLO, nổi tiếng về khả năng nhận diện đối tượng thời gian thực. Trong dự án này, tôi đã sử dụng thư viện Ultralytics, triển khai bước đầu là phát hiện đối tượng trên ảnh và video, sau đó đào tạo mô hình với dữ liệu riêng được tạo và tải lên Roboflow. Quá trình này được thực hiện trên Google Colab.
 
 ### Cài đặt
 Để chạy dự án này, bạn cần cài đặt các gói cần thiết.
